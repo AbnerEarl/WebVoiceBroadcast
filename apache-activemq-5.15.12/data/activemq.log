@@ -1,0 +1,24 @@
+2020-04-29 22:11:27,798 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@575de6b4: startup date [Wed Apr 29 22:11:27 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-04-29 22:11:28,704 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\ApacheProjects\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-04-29 22:11:28,867 | INFO  | PListStore:[E:\ApacheProjects\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-04-29 22:11:29,080 | INFO  | Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-SC2NC2E-53285-1588169488880-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-04-29 22:11:29,109 | INFO  | Listening for connections at: tcp://DESKTOP-SC2NC2E:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-04-29 22:11:29,111 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-04-29 22:11:29,118 | INFO  | Listening for connections at: amqp://DESKTOP-SC2NC2E:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-04-29 22:11:29,121 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-04-29 22:11:29,128 | INFO  | Listening for connections at: stomp://DESKTOP-SC2NC2E:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-04-29 22:11:29,131 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-04-29 22:11:29,137 | INFO  | Listening for connections at: mqtt://DESKTOP-SC2NC2E:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-04-29 22:11:29,139 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-04-29 22:11:29,145 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-04-29 22:11:29,245 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-04-29 22:11:29,410 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@755d1a5e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-04-29 22:11:29,480 | INFO  | Listening for connections at ws://DESKTOP-SC2NC2E:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-04-29 22:11:29,482 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-04-29 22:11:29,485 | INFO  | Apache ActiveMQ 5.15.12 (localhost, ID:DESKTOP-SC2NC2E-53285-1588169488880-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-04-29 22:11:29,487 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-04-29 22:11:29,494 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: E:\ApacheProjects\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data\kahadb only has 20690 mb of usable space. - resetting to maximum available disk space: 20690 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-04-29 22:11:29,499 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\ApacheProjects\apache-activemq-5.15.12-bin\apache-activemq-5.15.12\bin\win64\..\..\data only has 20690 mb of usable space. - resetting to maximum available disk space: 20690 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-04-29 22:11:30,428 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-04-29 22:11:30,429 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-04-29 22:17:29,185 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1131679081-59
